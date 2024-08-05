@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>India Map</title>
+</head>
+<body>
+  <h1>INDIA MAP</h1>
+
+  <img src="map.jpg" alt="India States and Capitals" usemap="#workmap">
+
+  <map name="workmap">
+    <area shape="rect" coords="300,964,404,998" alt="Rectangle" href="file:///C:/map/tamilnadu.html">
+    <area shape="poly" coords="135,406,200,369,270,407,245,465,164,464" alt="polygon" href="file:///C:/map/rajasthan.html">
+    <area shape="circle" coords="265,683,41" alt="circle" href="file:///C:/map/maharashtra.html">
+
+<a href="#" onclick="history.back(); return false;">Back to India Map</a>
+  </map>
+</body>
+</html>
+
