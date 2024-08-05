@@ -1,0 +1,191 @@
+<html>
+<head>
+<title>Timetable</title>
+<style>
+table,th,td{
+align="center";
+border:2px solid black;
+border-collapse:collapse;
+font-weight:600;
+}
+</style>
+</head>
+<body>
+<h3 align="center">RAJALAKSHMI ENGINEERING COLLEGE</h3>
+<h3 align="center">DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h3>
+<h4 align="center">Time Table for Academic Year 2024-2025 (Odd Semester-JULY'24-NOV'24)</h4>
+<table width=100%>
+<tr>
+<th colspan=2>Class Incharge</th>
+<th colspan=8>Class Committee Chairperson</th>
+</tr>
+<tr>
+<td colspan=2 align="center">Mrs.S.Vinothini</td>
+<td colspan=8 align="center">Dr.S. Vinodh Kumar</td>
+</tr>
+<tr align="center">
+<td>DAY</td>
+<td>1<br>8:00-9:00</td>
+<td>2<br>9:00-9:50</td>
+<td>9:50-10:10</td>
+<td>3<br>10:10-11:00</td>
+<td>4<br>11:00-11:50</td>
+<td>5/L<br>11:50-12:30/12:40</td>
+<td>L/5<br>12:30/12:40-1:20</td>
+<td>6<br>1:20-2:10</td>
+<td>7<br>2:10-3:00</td>
+</tr>
+<tr>
+<td>TUESDAY</td>
+<td align="center">CS19501-TOC<br><span style="color:red">A310</span></td>
+<td align="center">CS19541-CN<br><span style="color:red">A310</span></td>
+<td rowspan=5 align="center" style="transform:rotate(-90deg)">BREAK</td>
+<td colspan=2 align="center">CS19542-IP<br><span style="color:red">A105</span></td>
+<td align="center">LUNCH</td>
+<td align="center">NPTEL<br><span style="color:red">A310</span></td>
+<td align="center">COUN<br><span style="color:red">A310</span></td>
+<td align="center">AI19341-POAI<br><span style="color:red">A310</span></td>
+</tr>
+<tr>
+<td>WEDNESDAY</td>
+<td align="center">CS19541-CN<br><span style="color:red">A311</span></td>
+<td align="center">CS19501-TOC<br><span style="color:red">A311</span></td>
+<td colspan=2 align="center">CS19542-IP<br><span style="color:red">A105</span></td>
+<td align="center">LUNCH</td>
+<td align="center">AI19341-POAI<br><span style="color:red">A310</span></td>
+<td colspan=2 align="center">CS19542/CS19541-IP/CN LAB<br><span style="color:red">TLFL5/TLFL3</span></td>
+</tr>
+<tr>
+<td>THURSDAY</td>
+<td colspan=2 align="center">CS19541/AI19341-CN/POAI LAB<br><span style="color:red">TLFL3/TLGL3</span></td>
+<td align="center">CS19541-CN<br><span style="color:red">A311</span></td>
+<td align="center">LUNCH</td>
+<td colspan=2 align="center">CS19541/CS19542-CN/IP LAB<br><span style="color:red">TLFL3/TLFL5</span></td>
+<td colspan=2 align="center">OAI1903-RPA<br><span style="color:red">TLGL2</span></td>
+</tr>
+<tr>
+<td>FRIDAY</td>
+<td colspan=2 align="center">VAP<br></td>
+<td colspan=2 align="center">OAI1903-RPA<br><span style="color:red">TLGL2</span></td>
+<td align="center">LUNCH</td>
+<td align="center">LIB</td>
+<td align="center">CS19541-CN<br><span style="color:red">A310</span></td>
+<td align="center">CS19501-TOC<br><span style="color:red">A310</span></td>
+</tr>
+<tr>
+<td>SATURDAY</td>
+<td colspan=2 align="center">CS19542/CS19541-IP/CN LAB<br><span style="color:red">TLFL5/TLFL3</span></td>
+<td align="center">AI19341-POAI<br><span style="color:red">A303</span></td>
+<td align="center">LIB</td>
+<td align="center">LUNCH</td>
+<td align="center">CS19501-TOC<br><span style="color:red">A311</span></td>
+<td colspan=2 align="center">AI19341/CS19542-POAI/IP LAB<br><span style="color:red">TLGL3/JL1</span></td>
+</tr>
+</table>
+<table class="course-table">
+        <thead>
+            <tr>
+                <th>COURSE CODE</th>
+                <th>COURSE TITLE</th>
+                <th>STAFF CODE</th>
+                <th>STAFF TITLE</th>
+                <th>L</th>
+                <th>T</th>
+                <th>P</th>
+                <th>TUTORIAL / LAB / ASSISTANT</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>CS19501</td>
+                <td>Theory of Computation</td>
+                <td>CS272</td>
+                <td>Mrs.S.Vinothini</td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>OAI1903</td>
+                <td>Introduction to Robotics Process Automation</td>
+                <td>CS208</td>
+                <td>Dr.N.Duraimurugan</td>
+                <td>0</td>
+                <td>0</td>
+                <td>4</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>CS19541</td>
+                <td>Computer Networks</td>
+                <td>CS253</td>
+                <td>Dr.K.Anand</td>
+                <td>4</td>
+                <td>0</td>
+                <td>4</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>CS19542</td>
+                <td>Internet Programming</td>
+                <td>IT03</td>
+                <td>Dr.P.Kumar</td>
+                <td>4</td>
+                <td>0</td>
+                <td>4</td>
+                <td>Mr.K.Deepak Kumar</td>
+            </tr>
+            <tr>
+                <td>AI19341</td>
+                <td>Principles of Artificial Intelligence</td>
+                <td>CS268</td>
+                <td>Mr.V.Rahul Chiranjeevi</td>
+                <td>3</td>
+                <td>0</td>
+                <td>2</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>COUN</td>
+                <td>Counselling Hour</td>
+                <td>CS283 / CS69 / CS284</td>
+                <td>Dr.B.Vijayalakshmi / Dr.S.Vinodh Kumar / Dr.P.Muneeshwari</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>NPTEL</td>
+                <td>NPTEL</td>
+                <td>CS272</td>
+                <td>Mrs.S.Vinothini</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>LIB</td>
+                <td>Library</td>
+                <td>CS269</td>
+                <td>Mrs.R.Muthu Pandeeshwari</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>VAP</td>
+                <td>CS269</td>
+                <td>Mrs.S.K.Anandhi</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
